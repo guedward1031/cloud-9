@@ -1,3 +1,11 @@
+3.times do |topic|
+  Topic.create!(
+    title: "Topic #{topic}"
+  )
+end
+
+puts "3 Topics created"
+
 10.times do |blog|
   Blog.create!(
     title: "My Blog Post #{blog}",
@@ -36,5 +44,18 @@ end
     thumb_image: "http://placehold.it/350x200"
   )
 end
+<<<<<<< HEAD
 
 puts "9 portfolio items created"
+=======
+
+puts "9 portfolio items created"
+
+3.times do |technology|
+  Portfolio.last.technologies.create!(
+    name: "Technology #{technology}"
+  )
+end
+
+puts "3 technologies created"
+>>>>>>> b9a60620fc602b1f8b9675e21516663465dae051

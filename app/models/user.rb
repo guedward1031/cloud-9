@@ -14,5 +14,3 @@ class User < ApplicationRecord
     self.name.split.last
   end
 end
-
-
