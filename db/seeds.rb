@@ -45,12 +45,25 @@ end
   )
 end
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b9a60620fc602b1f8b9675e21516663465dae051
 
 puts "9 portfolio items created"
 =======
 
 puts "9 portfolio items created"
 
+3.times do |technology|
+  Portfolio.last.technologies.create!(
+    name: "Technology #{technology}"
+  )
+end
+
+<<<<<<< HEAD
+puts "3 technologies created"
+>>>>>>> b9a60620fc602b1f8b9675e21516663465dae051
+=======
 3.times do |technology|
   Portfolio.last.technologies.create!(
     name: "Technology #{technology}"
