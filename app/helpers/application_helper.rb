@@ -17,6 +17,6 @@ module ApplicationHelper
   end 
   
   def copyright_generator
-    GuViewTool::Renderer.copyright 'Edward Gu', 'All rights reserved'
+    EdwardViewTool::Renderer.copyright 'Edward Gu', 'All rights reserved'
   end
 end
