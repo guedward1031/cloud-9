@@ -57,4 +57,4 @@ gem 'devise', '~> 4.2'
 
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
-gem 'edward_view_tool', git: 'https://github.com/guedward1031/edward_view_tool'
+gem 'edward_view_tool', '~> 0.1.0'
