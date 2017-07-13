@@ -58,3 +58,4 @@ gem 'devise', '~> 4.2'
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
 gem 'edward_view_tool', '~> 0.1.0'
+gem 'petergate', '~> 1.7', '>= 1.7.5'
