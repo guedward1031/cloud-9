@@ -17,6 +17,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    EdwardViewTool::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
+    EdwardViewTool::Renderer.copyright 'Edward Gu', 'All rights reserved'
   end
 end
