@@ -1,3 +1,23 @@
+User.create!(
+  email: "test@test.com",
+  password: "asdfasdf",
+  password_confirmation: "asdfasdf",
+  name: "Admin User",
+  roles: "site_admin"
+)
+
+puts "1 Admin user created"
+
+User.create!(
+  email: "test2@test.com",
+  password: "asdfasdf",
+  password_confirmation: "asdfasdf",
+  name: "Regular User",
+)
+
+puts "1 regular user created"
+
+
 3.times do |topic|
   Topic.create!(
     title: "Topic #{topic}"
@@ -44,13 +64,6 @@ end
     thumb_image: "http://placehold.it/350x200"
   )
 end
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b9a60620fc602b1f8b9675e21516663465dae051
-
-puts "9 portfolio items created"
-=======
 
 puts "9 portfolio items created"
 
@@ -60,15 +73,4 @@ puts "9 portfolio items created"
   )
 end
 
-<<<<<<< HEAD
 puts "3 technologies created"
->>>>>>> b9a60620fc602b1f8b9675e21516663465dae051
-=======
-3.times do |technology|
-  Portfolio.last.technologies.create!(
-    name: "Technology #{technology}"
-  )
-end
-
-puts "3 technologies created"
->>>>>>> b9a60620fc602b1f8b9675e21516663465dae051
