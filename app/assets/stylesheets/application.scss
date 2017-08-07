@@ -200,7 +200,7 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('pokemon_PNG144.png') no-repeat;
+  background: image-url('home_bg.png') no-repeat;
   background-size: cover;
 }
 
@@ -213,11 +213,28 @@ body {
   margin: 20px;
 }
 
+.tech-news > .card {
+  padding: 30px;
+}
+
 .tech-news a {
   color: green;
 }
 
-.tech-news > card {
-  padding: 30px;
+.app-card-container {
+  color: black;
+  text-align: left;
+  padding: 40px;
 }
 
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
+}
